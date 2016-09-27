@@ -156,8 +156,13 @@ Entitlements    :
 	
 3.Thanks
 idb:https://github.com/dmayer/idb
+
 class dump:https://github.com/nygard/class-dump
+
 clutch:https://github.com/KJCracks/Clutch
+
 dumpdecrypted:https://github.com/stefanesser/dumpdecrypted
+
 pbwatcher:https://github.com/dmayer/pbwatcher
+
 Please contact me if i use your code while not mention you.

@@ -18,18 +18,8 @@
   Special Note: strongly suggest execute "chenv" after you connect to your device
   Usage:
  $ python main.py 
-
-#**********************************************************************************************#
-#                                                                                              #
-#                                iOS Security Audit Toolkit v2.0                               #
-#                                                                                              #
-#                                    Alibaba Mobile Security                                   #
-#                                     by <xxjun3@gmail.com>                                    #
-#                                                                                              #
-#**********************************************************************************************#
-
 Type "help", "cprt" for more information.
->>>help
+\>\>\>help
 [I]: Documented commands (type help [topic]):
 ab 	abr 	aca 	br 	chenv 	cipa 	clche 	clzdp 	cprt 	cycript 	
 dbgsvr 	dbn 	dca 	dipa 	dlini 	dlinj 	dlinji 	dnload 	dwa 	dws 	
@@ -39,24 +29,24 @@ las 	lbs 	lca 	log 	lsl 	ltb 	mport 	nonfat 	panic 	pca
 pid 	q 	quit 	resign 	sd 	skc 	ssh 	stop 	upload 	usb 	
 vdb 	vkc 	vpl 	vtb 	wclzdp 	wpb 	
 [I]: try 'help [cmd0] [cmd1]...' or 'help all' for more infomation.
->>>help ssh
+\>\>\>help ssh
 ssh 	connect to device with ssh.
 	args: [ip] [username] [password]
 	example: 'ssh 10.1.1.1 root alpine'
->>>help usb
+\>\>\>help usb
 usb 	ssh device over usb(Max OS X support only).
 	args: [username] [password] [port]
 	example: 'usb root alpine' or 'usb root alpine 2222'
->>>help dlinji
+\>\>\>help dlinji
 dlinji 	inject a dylib into an ipa file, resign and install.
 	args: [ipa_path] [entitlements_path] [mobileprovision_path] [identity] [dylib]
 	example: 'dlini ~/tmp/xin.ipa ~/tmp/entitlements.plist ~/tmp/ios_development.mobileprovision 'iPhone Developer: Name Name (xxxxxx)' ~/tmp/libtest.dylib'
->>>usb root xxroot
+\>\>\>usb root xxroot
 [E]: SSH Authentication failed when connecting to host
 [I]: Connect failed.
->>>usb root alpine
+\>\>\>usb root alpine
 [I]: Connect success.
->>>la
+\>\>\>la
 [I]: Refresh LastLaunchServicesMap...
 [I]: All installed Applications:
 0>.手机淘宝(com.taobao.taobao4iphone)
@@ -70,11 +60,11 @@ dlinji 	inject a dylib into an ipa file, resign and install.
 las 	list all storage file of an application.
 	args: [bundle_identifer]
 	example: 'las com.taobaobj.moneyshield' or 'las'
->>>help sd
+\>\>\>help sd
 sd 	show application detail.
 	args: [bundle_identifer]
 	example: 'sd com.taobaobj.moneyshield' or 'sd'
->>>sd cn.xiaochuankeji.tieba
+\>\>\>sd cn.xiaochuankeji.tieba
 [I]: 最右 Detail Info:
 Bundle ID       : cn.xiaochuankeji.tieba
 UUID            : D9B2B45F-0D25-4F4F-B6A1-45B514BF4D4B

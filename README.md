@@ -18,6 +18,16 @@
   Special Note: strongly suggest execute "chenv" after you connect to your device
   Usage:
  $ python main.py 
+
+#**********************************************************************************************#
+#                                                                                              #
+#                                iOS Security Audit Toolkit v2.0                               #
+#                                                                                              #
+#                                    Alibaba Mobile Security                                   #
+#                                     by <xxjun3@gmail.com>                                    #
+#                                                                                              #
+#**********************************************************************************************#
+
 Type "help", "cprt" for more information.
 >>>help
 [I]: Documented commands (type help [topic]):

@@ -1,4 +1,5 @@
 1.Installation
+
 1.1 Mac OS X
 1.1.1 pc env prepare
   1.  install python2.7
@@ -9,25 +10,18 @@
   6.  "brew install libimobiledevice", if don't have homebrew ,install it first: "ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null"
   7.  "git clone https://github.com/alibaba/iOSSecAudit.git"
   8.  cd /path/to/iOSSecAudit, "python main.py"
+
 1.1.2 device env prepare
   1.  jailbreak iOS device
   2.  install cycript in Cydia
+  
+
 1.2 Linux or Windows
   Never test on Linux or Windows, cause i am tooooo lazy...
-二、Usage
+2.Usage
   Special Note: strongly suggest execute "chenv" after you connect to your device
   Usage:
  $ python main.py 
-
-#**********************************************************************************************#
-#                                                                                              #
-#                                iOS Security Audit Toolkit v2.0                               #
-#                                                                                              #
-#                                    Alibaba Mobile Security                                   #
-#                                     by <xxjun3@gmail.com>                                    #
-#                                                                                              #
-#**********************************************************************************************#
-
 Type "help", "cprt" for more information.
 >>>help
 [I]: Documented commands (type help [topic]):

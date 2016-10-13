@@ -1,6 +1,7 @@
 1.Installation
 
 1.1 Mac OS X
+
 1.1.1 pc env prepare
   1.  install python2.7
   2.  "sudo easy_install pip"

@@ -825,7 +825,7 @@ if __name__ == '__main__':
     print "#                                                                                              #"
     print "#                                iOS Security Audit Toolkit %s                               #" % (G.VERSION_CODE)
     print "#                                                                                              #"
-    print "#                                    Alibaba Mobile Security                                   #"
+    print "#                                Alibaba YunOS System Security                                 #"
     print "#                                     %s                                    #" % (G.AUTHOR_MAIL)
     print "#                                                                                              #"    
     print "#**********************************************************************************************#\n"

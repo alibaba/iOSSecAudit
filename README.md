@@ -12,6 +12,20 @@
   7.  "git clone https://github.com/alibaba/iOSSecAudit.git"
   8.  cd /path/to/iOSSecAudit, "python main.py"
 
+#notice#
+
+if you see the the following:
+
+```
+ImportError: No module named prettytable
+ImportError: No module named paramiko
+```
+
+Uninstall them if needed, then try to install [`prettytable` ](https://pypi.python.org/pypi/PrettyTable)  or
+
+[`paramiko` ](https://pypi.python.org/pypi/paramiko/1.15.2) from the source code.
+
+
 1.1.2 device env prepare
   1.  jailbreak iOS device
   2.  install cycript in Cydia

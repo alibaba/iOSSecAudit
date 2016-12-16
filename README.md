@@ -11,6 +11,7 @@
   6.  "brew install libimobiledevice", if don't have homebrew ,install it first: "ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null"
   7.  "git clone https://github.com/alibaba/iOSSecAudit.git"
   8.  cd /path/to/iOSSecAudit, "python main.py"
+  
 special note: 
 under macOS 10.12.1 and Xcode8.2.
 using pip install prettytable or paramiko will cause to can NOT find the module.

@@ -48,7 +48,7 @@ Uninstall them if needed, then try to install [`prettytable` ](https://pypi.pyth
  
 Type "help", "cprt" for more information.
 
-\>\>\>help
+>>>help
 
 [I]: Documented commands (type help [topic]):
 
@@ -62,7 +62,7 @@ vdb 	vkc 	vpl 	vtb 	wclzdp 	wpb
 
 [I]: try 'help [cmd0] [cmd1]...' or 'help all' for more infomation.
 
-\>\>\>help ssh
+>>>help ssh
 
 ssh 	connect to device with ssh.
 
@@ -70,7 +70,7 @@ ssh 	connect to device with ssh.
 	
 	example: 'ssh 10.1.1.1 root alpine'
 	
-\>\>\>help usb
+>>>help usb
 
 usb 	ssh device over usb(Max OS X support only).
 
@@ -78,7 +78,7 @@ usb 	ssh device over usb(Max OS X support only).
 	
 	example: 'usb root alpine' or 'usb root alpine 2222'
 	
-\>\>\>help dlinji
+>>>help dlinji
 
 dlinji 	inject a dylib into an ipa file, resign and install.
 
@@ -86,7 +86,7 @@ dlinji 	inject a dylib into an ipa file, resign and install.
 	
 	example: 'dlini ~/tmp/xin.ipa ~/tmp/entitlements.plist ~/tmp/ios_development.mobileprovision 'iPhone Developer: Name Name (xxxxxx)' ~/tmp/libtest.dylib'
 	
-\>\>\>usb root xxroot
+>>>usb root xxroot
 
 [E]: SSH Authentication failed when connecting to host
 
@@ -95,7 +95,7 @@ dlinji 	inject a dylib into an ipa file, resign and install.
 \>\>\>usb root alpine
 
 [I]: Connect success.
-\>\>\>la
+>>>la
 
 [I]: Refresh LastLaunchServicesMap...
 
@@ -115,7 +115,7 @@ dlinji 	inject a dylib into an ipa file, resign and install.
 
 6>.最右(cn.xiaochuankeji.tieba)
 
-\>\>\>help las
+>>>help las
 
 las 	list all storage file of an application.
 
@@ -123,7 +123,7 @@ las 	list all storage file of an application.
 	
 	example: 'las com.taobaobj.moneyshield' or 'las'
 	
-\>\>\>help sd
+>>>help sd
 
 sd 	show application detail.
 
@@ -131,7 +131,7 @@ sd 	show application detail.
 	
 	example: 'sd com.taobaobj.moneyshield' or 'sd'
 	
-\>\>\>sd cn.xiaochuankeji.tieba
+>>>sd cn.xiaochuankeji.tieba
 
 [I]: 最右 Detail Info:
 Bundle ID       : cn.xiaochuankeji.tieba

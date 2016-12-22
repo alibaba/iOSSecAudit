@@ -12,10 +12,7 @@
   7.  "git clone https://github.com/alibaba/iOSSecAudit.git"
   8.  cd /path/to/iOSSecAudit, "python main.py"
   
-special note: 
-under macOS 10.12.1 and Xcode8.2.
-using pip install prettytable or paramiko will cause to can NOT find the module.
-so try to install them from the source code.
+
 
 #notice#
 
@@ -45,6 +42,7 @@ Uninstall them if needed, then try to install [`prettytable` ](https://pypi.pyth
   Special Note: strongly suggest execute "chenv" after you connect to your device
   
   Usage:
+  ```
   
  $ python main.py 
  
@@ -173,7 +171,7 @@ Entitlements    :
 	com.apple.developer.team-identifier: 3JDS7K3BCM
 	
 	com.apple.security.application-groups:
-	
+```
 #3.Thanks#
 
 idb:https://github.com/dmayer/idb

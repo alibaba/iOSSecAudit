@@ -17,6 +17,20 @@ under macOS 10.12.1 and Xcode8.2.
 using pip install prettytable or paramiko will cause to can NOT find the module.
 so try to install them from the source code.
 
+#notice#
+
+if you see the the following:
+
+```
+ImportError: No module named prettytable
+ImportError: No module named paramiko
+```
+
+Uninstall them if needed, then try to install [`prettytable` ](https://pypi.python.org/pypi/PrettyTable)  or
+
+[`paramiko` ](https://pypi.python.org/pypi/paramiko/1.15.2) from the source code.
+
+
 1.1.2 device env prepare
   1.  jailbreak iOS device
   2.  install cycript in Cydia

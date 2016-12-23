@@ -35,11 +35,11 @@ Uninstall them if needed, then try to install [`prettytable` ](https://pypi.pyth
 
 <h3>1.2 Linux or Windows</h3>
   
-  Never test on Linux or Windows, cause i am tooooo lazy...
+  <U>Never test on Linux or Windows, cause i am tooooo lazy...</U>
   
 #2.Usage#
 
-  Special Note: strongly suggest execute "chenv" after you connect to your device
+  <B>Special Note: strongly suggest execute "chenv" after you connect to your device</B>
   
   Usage:
   ```
@@ -173,15 +173,11 @@ Entitlements    :
 	com.apple.security.application-groups:
 ```
 #3.Thanks#
-
+```
 idb:https://github.com/dmayer/idb
-
 class dump:https://github.com/nygard/class-dump
-
 clutch:https://github.com/KJCracks/Clutch
-
 dumpdecrypted:https://github.com/stefanesser/dumpdecrypted
-
 pbwatcher:https://github.com/dmayer/pbwatcher
-
 Please contact me if i use your code while not mention you.
+```

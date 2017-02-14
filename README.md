@@ -70,7 +70,7 @@ dlinji 	inject a dylib into an ipa file, resign and install.
 >>>usb root xxroot
 [E]: SSH Authentication failed when connecting to host
 [I]: Connect failed.
-\>\>\>usb root alpine
+>>>usb root alpine
 [I]: Connect success.
 >>>la
 [I]: Refresh LastLaunchServicesMap...

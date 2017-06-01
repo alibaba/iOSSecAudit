@@ -1,4 +1,4 @@
-#1.Installation#
+# 1.Installation
 
 <h3>1.1 Mac OS X</h3>
 

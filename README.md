@@ -37,7 +37,7 @@ Uninstall them if needed, then try to install [`prettytable` ](https://pypi.pyth
   
   <U>Never test on Linux or Windows, cause i am tooooo lazy...</U>
   
-#2.Usage#
+# 2.Usage
 
   <B>Special Note: strongly suggest execute "chenv" after you connect to your device</B>
   
@@ -112,7 +112,7 @@ Entitlements    :
 	com.apple.developer.team-identifier: 3JDS7K3BCM
 	com.apple.security.application-groups:
 ```
-#3.Thanks#
+# 3.Thanks
 
 idb:https://github.com/dmayer/idb
 

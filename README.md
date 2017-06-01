@@ -3,6 +3,7 @@
 <h3>1.1 Mac OS X</h3>
 
 <h5>1.1.1 pc env prepare</h5>
+```
   1.  install python2.7
   2.  "sudo easy_install pip"
   3.  "sudo pip install paramiko"
@@ -11,7 +12,7 @@
   6.  "brew install libimobiledevice", if don't have homebrew ,install it first: "ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null"
   7.  "git clone https://github.com/alibaba/iOSSecAudit.git"
   8.  cd /path/to/iOSSecAudit, "python main.py"
-
+```
 
 
 #notice#
